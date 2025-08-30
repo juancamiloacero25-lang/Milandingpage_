@@ -1,18 +1,18 @@
 /* 🎨 Estilos generales */
 :root {
-    --primary-color: #1d6392;
-    --secondary-color: #2c3e50;
-    --text-color: #333333;
+    --primary-color: #050505;
+    --secondary-color: #050505;
+    --text-color: #050505;
     --background-color: #f4f4f4;
     --light-gray: #ecf0f1;
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "oswal", sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
+    background-color: var(#1b2982);
     color: var(--text-color);
     scroll-behavior: smooth;
 }
@@ -47,7 +47,7 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--primary-color);
+    color: var(#1b2982);
     outline: none;
 }
 
@@ -157,7 +157,7 @@ body {
 
 .linktree-link:hover,
 .linktree-link:focus {
-    background-color: #2980b9;
+    background-color: #4d4d4f;
     outline: none;
 }
 
@@ -221,4 +221,25 @@ body {
     .list li {
         text-align: center;
     }
+}
+h1{
+    font-family: "Oswald", sans-serif;
+}  
+p{
+    font-family: "Oswald", sans-serif;
+}
+h2{
+    font-family: "Oswald", sans-serif;
+}
+h3{
+    font-family: "Oswald", sans-serif;
+}
+h4{
+    font-family: "Oswald", sans-serif;
+}
+h3{
+    font-family: "Oswald", sans-serif;
+}
+h2{
+    font-family: "Oswald", sans-serif;
 }
